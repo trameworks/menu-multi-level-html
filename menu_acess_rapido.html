@@ -1,0 +1,1935 @@
+<html lang="pt-br">
+
+<head>
+	<title>Menu</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .multi-level, .item ul, .navx input[type="checkbox"] {
+        display: none;
+    }
+    #menu:checked ~ .multi-level, .item input:checked ~ ul {
+        display: block;
+        background-color: #19237e;
+    }
+
+    /*Arrow*/
+
+    .arrow {
+        width: 12px;
+        height: 12px;
+        vertical-align: middle;
+        float: left;
+        z-index: 0;
+        margin: 17px 1em 0 2em;
+    }
+    .item input + .arrow {
+        transform: rotate(-90deg);
+        transition: 0.1s;
+    }
+    .item input:checked + .arrow {
+        transform: rotate(0deg);
+        transition: 0.1s;
+    }
+
+
+
+    /*Styles*/
+
+    label:hover {
+        cursor: pointer;
+    }
+    label {
+        width: 100%;
+        display: block;
+        z-index: 3;
+        position: relative;
+    }
+    .navx {
+        width: 33%;
+        overflow-x: hidden;
+        position: absolute;
+        top: 7em;
+        z-index: 9999;
+    }
+
+    #nav-icon {
+        font-size: 1.5em;
+        line-height: 50px;
+        padding-left: 1em;
+        color: #1a237e;
+    }
+
+    .navx ul, .navx li, label {
+        line-height: 50px;
+        margin: 0;
+        padding: 0 2em;
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 100;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    .item ul {
+        padding: 0 0.25em;
+    }
+    .navx li a {
+        line-height: 50px;
+        margin: 0;
+        padding: 0 4em;
+        list-style: none;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 100;
+    }
+
+    @media (max-width:480px) {
+      .navx {
+          width: 92%;
+          overflow-x: hidden;
+          position: absolute;
+          top: 12em;
+          z-index: 9999;
+      }
+      #nav-icon {
+          font-size: 1.5em;
+          line-height: 50px;
+          padding-left: 1em;
+          color: transparent;
+          display: none;
+      }
+      .navx li a {
+          line-height: 40px;
+          margin: 0;
+          padding: 0 4em;
+          list-style: none;
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: 100;
+      }
+      .navx ul, .navx li, label {
+          line-height: 50px;
+          margin: 0;
+          padding: 0 1em;
+          list-style: none;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 100;
+          width: 100%;
+          font-size: 1.1rem;
+      }
+    </style>
+
+</head>
+<body>
+<!-- Nav Acesso Rapido -->
+<div class="navx">
+  <input type="checkbox" id="menu"/>
+  <label for="menu" id="nav-icon">&#9776;ACESSO RÁPIDO</label>
+
+
+  <div class="multi-level">
+    <div class="item">
+      <input type="checkbox" id="B"/>
+      <label for="B">EMBALAGENS</label>
+      <ul>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-A"/>
+          <label for="B-A">BOLO DE ROLO</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/embalagem-bolo-de-rolo/embalagem-bolo-de-rolo-15x85x7-cm-2227/" title="Embalagem de Bolo de Rolo - Pequeno">PEQUENO 15 CM</a></li>
+            <li><a href="/catalogue/category/embalagens/embalagem-bolo-de-rolo/embalagem-bolo-de-rolo-30x85x7-cm-2228/" title="Embalagem de Bolo de Rolo - Grande">GRANDE 30 CM</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B1"/>
+          <label for="B-B1">EMBALAGEM GALETO</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-galeto-748/" title="Embalagem de galeto">GALETO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B2"/>
+          <label for="B-B2">EMBALAGEM FRANGO FRITO</label>
+          <ul>
+            <li><a  href="/catalogue/category/embalagens/caixa-frango-frito-2200/" title="Embalagem frango frito">FRANGO FRITO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B4"/>
+          <label for="B-B4">EMBALAGEM CUBO</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-cubo-2224/" title="Caixa Cubo">EMBALAGEM CUBO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B5"/>
+          <label for="B-B5"> CONE COM SUPORTE PARA MOLHO</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/cone-com-suporte-para-molho/cone-com-suporte-para-molho-22cm-2223/" title="cone para molho "> 22CM</a></li>
+            <li><a href="/catalogue/category/embalagens/cone-com-suporte-para-molho/cone-com-suporte-para-molho-25cm-2222/" title="cone para molho "> 25CM</a></li>
+            <li><a href="/catalogue/category/embalagens/cone-com-suporte-para-molho/cone-com-suporte-para-molho-30cm-2221/" title="Conne para molho">30CM</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B6"/>
+          <label for="B-B6">EMBALAGEM CACHEPOT</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/cachepot-2217/" title="Embalagem cachepot "> CACHEPOT</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B7"/>
+          <label for="B-B7">EMBALAGEM PERFUME</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-perfume-2202/" title="Caixa de perfume "> EMBALAGEM PERFUME</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B8"/>
+          <label for="B-B8">EMBALAGEM PULSEIRA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-pulseira-2201/" title="Caixa de pulseira "> EMBALAGEM PULSEIRA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B9"/>
+          <label for="B-B9">EMBALAGEM EMPADA FATIA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-empada-fatia-2199/" title="Caixa de empada fatia "> EMPADA FATIA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B10"/>
+          <label for="B-B10">EMBALAGEM EM PAPEL KRAFT</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/sacola-para-lanches/17x38x12-cm-2204/" title="Embalagem papel kraft 17x38x12 cm "> 17x38x12 cm</a></li>
+            <li><a href="/catalogue/category/embalagens/sacola-para-lanches/21x26x12-cm-2203/" title="Embalagem papel kraft 21X26X12 cm "> 21X26X12 cm</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B11"/>
+          <label for="B-B11">EMBALAGEM FORMINHA PERSONALIZADA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/forminha-personalizada-1929/" title="Embalagem Forminha personalizada">FORMINHA PERSONALIZADA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B12"/>
+          <label for="B-B12">EMBALAGEM PROTESE DENTARIA</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B13"/>
+              <label for="B-B13">COM LAMINAÇÃO</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-protese-dentaria/com-laminacao/185x10x75-cm-2197/" title="Com laminação">18,5x10x7,5 cm</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B13.1"/>
+              <label for="B-B13.1">19,5x10x10 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-protese-dentaria/195x10x10-cm-1880/" title="19,5x10x10 cm">19,5x10x10 cm</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B13.2"/>
+              <label for="B-B13.2">18,5x10x7,5 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-protese-dentaria/185x10x75-cm-2196/" title="18,5x10x7,5 cm">18,5x10x7,5 cm</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B13.3"/>
+              <label for="B-B13.3">18x13x9 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-protese-dentaria/18x13x9-cm-1879/" title="18x13x9 cm">18x13x9 cm</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B14"/>
+          <label for="B-B14">EMBALAGEM PAPEL SEDA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/papel-seda-1508/" title="Papel seda">PAPEL SEDA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B15"/>
+          <label for="B-B15">EMBALAGEM PARA WRAP</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-para-wrap-1504/" title="Wrrap">EMBALAGEM WRAP</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B16"/>
+          <label for="B-B16"> EMBALAGEM PARA BATATA FRITA  </label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B17"/>
+              <label for="B-B17">EMBALAGEM BATATA VIAGEM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-batata-frita/batata-viagem-1915/" title="Embalagem Batata viagem">BATATA VIAGEM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B18"/>
+              <label for="B-B18">EMBALAGEM BATATA MEDIA</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-batata-frita/media-14/" title="Embalagem Batata media">BATATA MEDIA</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B19"/>
+              <label for="B-B19">EMBALAGEM BATATA AO MOLHO</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-batata-frita/pequena-26/" title="Embalagem Batata ao molho- Frente">BATATA AO MOLHO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B20"/>
+              <label for="B-B20">EMBALAGEM CONE COM SUPORTE PARA MOLHO</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-batata-frita/cone-43/" title="Embalagem Cone com suporte para molho">SUPORTE PARA MOLHO</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B21"/>
+          <label for="B-B21">EMBALAGEM LANCHEIRA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-lancheira_2-2225/" title="Caixa Lancheira">LANCHEIRA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B22"/>
+          <label for="B-B22"> EMBALAGEM PARA DOCES E SOBREMESAS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B23"/>
+              <label for="B-B23">EMBALAGEM DOCES VAZADO</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-para-doces/12x7x95-cm-1501/" title="Embalagem Doces Vazado">DOCES VAZADO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B24"/>
+              <label for="B-B24">EMBALAGEM PARA DOCES E SOBREMESAS</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-para-doces/papel-triplex-21/" title="Cartão de Visita PVC - Frente"> DOCES E SOBREMESAS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="B-B25"/>
+              <label for="B-B25">EMBALAGEM PARA DOCES PEQUENOS</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-para-doces/papel-duplex-735/" title="Embalagem para doces pequenos">DOCES PEQUENOS</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B26"/>
+          <label for="B-B26">EMBALAGEM PARA LEMBRANCINHAS</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-para-lembrancinhas-24/" title="Embalagem para lembrancinhas">LEMBRANCINHAS</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B27"/>
+          <label for="B-B27">EMBALAGEM CACHORRO QUENTE</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-cachorro-quente/caixa-dupla-com-tampa-2186/" title="Embalagem Dupla Com Tampa"> DUPLA COM TAMPA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-cachorro-quente/papel-triplex-56/" title="Embalagem Para viagem"> PARA VIAGEM</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-cachorro-quente/sem-tampa-722/" title="Embalagem Sem tampa">EMBALAGEM SEM TAMPA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-cachorro-quente/grande-731/" title="Embalagem Grande">EMBALAGEM GRANDE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B28"/>
+          <label for="B-B28">EMBALAGEM PIPOCA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-pipoca/pequena-1914/" title="Embalagem Pequena "> PEQUENA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pipoca/grande-1913/" title="Embalagem Grande"> GRANDE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B29"/>
+          <label for="B-B29">EMBALAGEM MINI SALGADOS</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-mini-salgados/papel-duplex-61/" title="Embalagem Barca com suporte de molho"> BARCA SUPORTE DE MOLHO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B30"/>
+          <label for="B-B30">EMBALAGEM ENVELOPE TALHER</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/porta-talher-71/" title="Embalagem Envelope Talher">ENVELOPE TALHER</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B31"/>
+          <label for="B-B31">EMBALAGEM CINTA PARA POTE SORVETE</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/cinta-para-pote-sorvete-73/" title="Embalagem Cinta para pote sorvete">CINTA PARA POTE SORVETE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B32"/>
+          <label for="B-B32">EMBALAGEM PIZZA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/fatia-com-base-removivel-1928/" title="Embalagem Fatia com base removivel">EMBALAGEM FATIA COM BASE REMOVIVEL</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/fatia-729/" title="Embalagem Fatia">EMBALAGEM FATIA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/cone-736/" title="Embalagem Cone">EMBALAGEM CONE</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/tampa-triplex-1454/" title="Embalagem Tampa triplex">EMBALAGEM TAMPA TRIPLEX</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/tampa-papelao-1455/" title="Embalagem papelao">EMBALAGEM PAPELAO</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/brotinho-mao-1494/" title="Embalagem Brotinho Mao">EMBALAGEM BROTINHO MAO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="B-B"/>
+          <label for="B-B">CAIXA PARA DOCES E SALGADOS</label>
+          <ul>
+            <li><a href="#">35X35 CM</a></li>
+            <li><a href="#">35X17,5 CM</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="C-C"/>
+          <label for="C-C">CAIXA DE HAMBURGUER GOURMET</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-hamburguer/papel-duplex-718/" title="Caixa de Hamburguer Gourmet - Pequeno">PEQUENO/MÉDIO</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-hamburguer/gigante-730/" title="Caixa de Hamburguer Gourmet - Grande">GRANDE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="C-C1"/>
+          <label for="C-C1">EMBALAGEM BOLOS E TORTAS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="C-C2.1"/>
+              <label for="C-C2.1">EMBALAGEM 25X25X6</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/caixa-25x25x6-2188/" title="Embalagem 25X25X6">EMBALAGEM 25X25X6</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="C-C2"/>
+              <label for="C-C2">EMBALAGEM BANDEJA DE BOLO</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/prato-para-bolo/bandeja-de-bolo-21x21-cm-1511/" title="Embalagem Bandeja de bolo 21x21 cm">BANDEJA DE BOLO 21X21 CM</a></li>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/prato-para-bolo/bandeja-de-bolo-25x25-cm-1510/" title="Embalagem Bandeja de bolo 25x25 cm">BANDEJA DE BOLO 25X25 CM</a></li>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/prato-para-bolo/bandeja-de-bolo-35x35-1509/" title="Embalagem Bandeja de bolo 35x35 cm">BANDEJA DE BOLO 35X35 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="C-C3"/>
+              <label for="C-C3">EMBALAGEM 23X9X23 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/caixa-25x25x95-1498/" title="Embalagem 23x9x23 cm">EMBALAGEM 23X9X23 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="C-C4"/>
+              <label for="C-C4">EMBALAGEM 30X30X13 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/embalagens/caixa-bolo-e-torta/papel-duplex-744/" title="Embalagem 30X30X13 CM">EMBALAGEM 30X30X13 CM</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="D-D"/>
+          <label for="D-D">CAIXA DE BATATA FRITA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-batata-frita/batata-viagem-1915/" title="Caixa de Batata Frita - Viagem">CAIXA DE BATATA FRITA PARA VIAGEM</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-batata-frita/media-14/" title="Caixa de Batata Frita - Média">CAIXA DE BATATA FRITA MÉDIA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="G-G4"/>
+          <label for="G-G4">PAPEL SEDA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/papel-seda-1508/" title="Embalagem - Papel Seda">PAPEL SEDA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="H-H"/>
+          <label for="H-H">CAIXA DE PIZZA</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/fatia-com-base-removivel-1928/" title="Caixa de Pizza - Base Removível">FATIA COM BASE REMOVÍVEL</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/fatia-729/" title="Caixa de Pizza - Fatia">FATIA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/cone-736/" title="Caixa de Pizza - Cone">CONE</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/tampa-triplex-1454/" title="Caixa de Pizza - Tampa Triplex">TAMPA TRIPLEX</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/tampa-papelao-1455/" title="Caixa de Pizza - Papelão">PAPELÃO</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-pizza/brotinho-mao-1494/" title="Caixa de Pizza - Brotinho">BROTINHO MÃO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="I-I"/>
+          <label for="I-I">CAIXA SUSHI </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-sushi-e-temaki/pequena-725/" title="Caixa Sushi - Pequena ">PEQUENA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-sushi-e-temaki/media-726/" title="Caixa Sushi - Média">MÉDIA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="J-J"/>
+          <label for="J-J">CAIXA PARA TEMAKI </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-sushi-e-temaki/papel-duplex-743/" title="Caixa para Temaki - Individual">INDIVIDUAL</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-sushi-e-temaki/pequena-725/" title="Caixa para Temaki - Pequena">PEQUENA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-sushi-e-temaki/media-726/" title="Caixa para Temaki - Média">MÉDIA</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K"/>
+          <label for="K-K">CAIXA PARA COMIDA CHINESA </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-comida-chinesa/embalagem-personalizada-400-ml-2231/" title="Caixa para Comida Chinesa - Pequena">PEQUENA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-comida-chinesa/embalagem-personalizada-800-ml-2230/" title="Caixa para Comida Chinesa - Média">MÉDIA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-comida-chinesa/embalagem-personalizada-15-litros-2229/" title="Caixa para Comida Chinesa - Grande">GRANDE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K1"/>
+          <label for="K-K1">EMBALAGEM CHURROS E CHURRITOS </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-churros-e-churritos/sem-tampa-1496/" title="Embalagem Sem tampa"> SEM TAMPA</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-churros-e-churritos/papel-duplex-728/" title="Embalagem Churros espanhol"> CHURROS ESPANHOL</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-churros-e-churritos/papel-triplex-738/" title="Embalagem Suporte para molho ">EMBALAGEM SUPORTE PARA MOLHO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K2"/>
+          <label for="K-K2">EMBALAGEM TAPIOCA, WAFFLE E CREPE </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-tapioca-waffle-e-crepe/crepe-suico-2187/" title="Embalagem Crepe suíço"> CREPE SUÍÇO</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-tapioca-waffle-e-crepe/papel-triplex-734/" title="Embalagem Tapioca e Waffle"> TAPIOCA E WAFFLEEMBALAGEM TAPIOCA E WAFFLE</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-tapioca-waffle-e-crepe/tapioca-de-mao-1491/" title="Embalagem Tapioca de mão"> SUPORTE PARA MOLHO</a></li>
+            <li><a href="/catalogue/category/embalagens/caixa-tapioca-waffle-e-crepe/crepe-frances-1493/" title="Embalagem Crepe francês "> CREPE FRANCÊS</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K3"/>
+          <label for="K-K3">EMBALAGEM ESPETINHO</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-espetinho-737/" title="Embalagem espetinho"> EMBALAGEM ESPETINHO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K4"/>
+          <label for="K-K4">EMBALAGEM PASTEL</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-pastel-740/" title="Embalagem pastel">  EMBALAGEM PASTEL</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K5"/>
+          <label for="K-K5">EMBALAGEM SANDUICHE</label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/caixa-sanduiche-745/" title="Embalagem sanduiche"> EMBALAGEM SANDUICHE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="K-K6"/>
+          <label for="K-K6">EMBALAGEM SACOLA EM OFFSET</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="K-K7"/>
+              <label for="K-K7">EMBALAGEM SACOLA COM ILHÓIS</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="K-K8"/>
+                  <label for="K-K8">EMBALAGEM SACOLA VERTICAL</label>
+                  <ul>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-vertical/medidas-35x8x65-cm-1752/" title="Embalagem Sacola Vertical">MEDIDAS: 35X8X6,5 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-vertical/medida-21x15x7-cm-1747/" title="Embalagem Sacola Vertical">MEDIDA: 21X15X7 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-vertical/medida-315x20x97-cm-1746/" title="Embalagem Sacola Vertical">MEDIDA: 31,5X20X9,7 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-vertical/medida-53x285x10-cm-1745/" title="Embalagem Sacola Vertical">MEDIDA: 53X28,5X10 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-vertical/medida-155x97x5-cm-1744/" title="Embalagem Sacola Vertical">MEDIDA: 15,5X9,7X5 CM</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="K-K9"/>
+              <label for="K-K9">EMBALAGEM SACOLA COM ILHÓIS</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="K-K10"/>
+                  <label for="K-K10">EMBALAGEM SACOLA HORIZONTAL</label>
+                  <ul>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-horizontal/medidas-135x21x8-cm-1751/" title="Embalagem Sacola Horizontal">MEDIDAS: 13,5X21X8 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-horizontal/medidas-23x30x8-cm-1750/" title="Embalagem Sacola Horizontal">MEDIDAS: 23X30X8 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-horizontal/medidas-312x45x128-cm-1749/" title="Embalagem Sacola Horizontal">MEDIDAS: 31,2X45X12,8 CM</a></li>
+                    <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g/sacola-horizontal/medidas-105x15x5-cm-1748/" title="Embalagem Sacola Horizontal">MEDIDAS: 10,5X15X5 CM</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="L-L"/>
+          <label for="L-L">SACOLA PAPEL KRAFT </label>
+          <ul>
+            <li><a href="/catalogue/category/embalagens/sacola-em-offset/150g-750/" title="Sacola Papel Kraft - Com Ilhóis">COM ILHÓIS</a></li>
+            <li><a href="/catalogue/category/embalagens/sacola-em-offset/240g-751/" title="Sacola Papel Kraft - Sem Ilhóis">SEM ILHÓIS</a></li>
+          </ul>
+        </div></li>
+      </ul>
+    </div>
+    <div class="item">
+      <input type="checkbox" id="AA"/>
+      <label for="AA">EMPRESAS</label>
+      <ul>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-A0"/>
+          <label for="AA-A0">COUCHÊ</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/couche/couche-com-corte-especial-1888/" title="couchê com corte especial">CORTE ESPECIAL</a></li>
+            <li><a href="/catalogue/category/empresas/couche/couche-sem-corte-1886/" title="couchê sem corte">COUCHÊ SEM CORTE</a></li>
+            <li><a href="/catalogue/category/empresas/couche/couche-com-corte-1885/" title="couchê com corte">COUCHÊ COM CORTE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-A1"/>
+          <label for="AA-A1">ADESIVOS</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/adesivos/adesivos-papel-1590/" title="Adesivos papel refile linear">ADESIVOS PAPEL REFILE LINEAR</a></li>
+            <li><a href="/catalogue/category/empresas/adesivos/vinil-transparente-1591/" title="vinil transparente">VINIL TRANSPARENTE</a></li>
+            <li><a href="/catalogue/category/empresas/adesivos/vinil-branco-1592/" title="Vinil Branco">VINIL BRANCO</a></li>
+            <li><a href="/catalogue/category/empresas/adesivos/papel-redondo-1593/" title="Papel redondo">PAPEL REDONDO</a></li>
+            <li><a href="/catalogue/category/empresas/adesivos/folha-a3-com-corte-1594/" title="Folha A3 com refile contorno">FOLHA A3 COM REFILE CONTORNO</a></li>
+            <li><a href="/catalogue/category/empresas/adesivos/folha-a3-sem-corte-1595/" title="Folha A3 sem corte">FOLHA A3 SEM CORTE</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-A2"/>
+          <label for="AA-A2">BANDEIROLAS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-A3"/>
+              <label for="AA-A3">13X21 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/bandeirolas/13x21mm/so-frente-1800/" title="Bandeirolas - Frente">FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/bandeirolas/13x21mm/frente-e-verso-1799/" title="Bandeirolas - Frente e verso">FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-A4"/>
+              <label for="AA-A4">15X30 CM</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/bandeirolas/15x30mm/frente-1802/" title="Bandeirolas - Frente">FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/bandeirolas/15x30mm/frente-e-verso-1801/" title="Bandeirolas - Frente e Verso">FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-A5"/>
+          <label for="AA-A5">BLOCOS E TALÕES</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-A6"/>
+              <label for="AA-A6">AUTOCOPIATIVO 56G</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-A7"/>
+                  <label for="AA-A7">2 VIAS</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/autocopiativo-56g-1601/" title="Blocos e talões autocopiativo-56g - 2 vias - 150x105MM">150x105MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/autocopiativo-56g/2-vias/150x210mm-1604/" title="Blocos e talões autocopiativo-56g - 2 vias - 150x210MM">150x210MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/autocopiativo-56g/2-vias/280x200mm-1605/" title="Blocos e talões autocopiativo-56g - 2 vias -280x200MM">280x200MM</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-A8"/>
+              <label for="AA-A8"> CARBONADO 56G </label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-A9"/>
+                  <label for="AA-A9">2 VIAS</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/carbonado-56g/2-vias/150x105mm-1612/" title="Blocos e talões carbonado-56g - 2 vias - 150x105MM">150x105MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/carbonado-56g/2-vias/150x210mm-1613/" title="Blocos e talões carbonado-56g - 2 vias - 150x210MM">150x210MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/carbonado-56g/2-vias/280x200mm-1614/" title="Blocos e talões carbonado-56g - 2 vias - 280x200MM">280x200MM</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-A10"/>
+              <label for="AA-A10"> APERGAMINHADO 56G </label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-A11"/>
+                  <label for="AA-A11">1 VIA</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/2-vias/150x105mm-1621/" title="Blocos e talões apergaminhado 56G - 1 via - 150x105MM">150x105MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/2-vias/150x210mm-1622/" title="Blocos e talões apergaminhado 56G - 1 via - 150x210MM">150x210MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/2-vias/280x200mm-1623/" title="Blocos e talões apergaminhado 56G - 1 via - 280x200MM">280x200MM</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-A12"/>
+                  <label for="AA-A12">2 VIAS</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/3-vias/150x105mm-1625/" title="Blocos e talões apergaminhado 56G - 2 vias - 150x105MM">150x105MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/3-vias/150x210mm-1796/" title="Blocos e talões apergaminhado 56G - 2 vias - 150x210MM">150x210MM</a></li>
+                    <li><a href="/catalogue/category/empresas/blocos-e-taloes/apergaminhado-56g/3-vias/280x200mm-1626/" title="Blocos e talões apergaminhado 56G - 2 vias - 280x200MM">280x200MM</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B0"/>
+          <label for="AA-B0">CALENDÁRIOS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-B1"/>
+              <label for="AA-B1">CALENDÁRIO DE BOLSO</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/calendarios/calendario-de-bolso/couche-250g-1629/" title="Calendario  de bolso – Couchê 250G">COUCHÊ 250G</a></li>
+                <li><a href="/catalogue/category/empresas/calendarios/calendario-de-bolso/couche-275g-1630/" title="Calendario  de bolso – Couchê 275G">COUCHÊ 275G</a></li>
+                <li><a href="/catalogue/category/empresas/calendarios/calendario-de-bolso/couche-300g-1631/" title="Calendario  de bolso – Couchê 300G">COUCHÊ 300G</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/verniz-total-frente-1650/" title="Cartão de Visita - Verniz frente">VERNIZ TOTAL FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/verniz-total-frente-e-verso-1651/" title="Cartão de Visita - Verniz total">VERNIZ TOTAL FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B2"/>
+          <label for="AA-B2">CD e DVD</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/cd-e-dvd/adesivo-cd-e-dvd-1640/" title=" CD e DVD  – Adesivo CD e DVD">ADESIVO CD E DVD</a></li>
+            <li><a href="/catalogue/category/empresas/cd-e-dvd/encarte-dvd-slim-1641/" title="CD e DVD  – Encarte DVD Slim">ENCARTE DVD SLIM</a></li>
+            <li><a href="/catalogue/category/empresas/cd-e-dvd/envelope-cd-1642/" title="CD e DVD  – Envelope CD">ENVELOPE CD</a></li>
+            <li><a href="/catalogue/category/empresas/cd-e-dvd/encarte-dvd-1644/" title="CD e DVD  – Encarte DVD">ENCARTE DVD</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-AA"/>
+          <label for="AA-AA">CARTÃO DE VISITA</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-AB"/>
+              <label for="AA-AB">COUCHÊ 300G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/verniz-localizado-frente-e-verso-1763/" title="Cartão de Visita - Verniz">VERNIZ LOCALIZADO FRENTE E VERSO</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/laminacao-fosca-1648/" title="Cartão de Visita - Fosco">LAMINAÇÃO FOSCA FRENTE E VERSO</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/sem-verniz-1649/" title="Cartão de Visita - Sem verniz">SEM VERNIZ</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/verniz-total-frente-1650/" title="Cartão de Visita - Verniz frente">VERNIZ TOTAL FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/couche-300g/verniz-total-frente-e-verso-1651/" title="Cartão de Visita - Verniz total">VERNIZ TOTAL FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-AC"/>
+              <label for="AA-AC">PVC 0,50MM</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/pvc-050mm/frente-1808/" title="Cartão de Visita PVC - Frente">FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/pvc-050mm/frente-e-verso-1807/" title="Cartão de Visita PVC - Frente e Verso">FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-AD"/>
+              <label for="AA-AD">PVC 0,75MM</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/pvc-075mm/frente-1810/" title="Cartão de Visita PVC 0,75- Frente">FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/pvc-075mm/frente-e-verso-1809/" title="Cartão de Visita PVC 0,75 - Frente e Verso">FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-AE"/>
+              <label for="AA-AE">PAPEL RECICLATO</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/papel-reciclato/frente-1812/" title="Cartão de Visita - Papel Reciclato - Frente">FRENTE</a></li>
+                <li><a href="/catalogue/category/empresas/cartoes-de-visita/papel-reciclato/frente-e-verso-1811/" title="Cartão de Visita - Papel Reciclato - Frente e Verso">FRENTE E VERSO</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B3"/>
+          <label for="AA-B3">CORDÃO COM MOSQUETÃO</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/cordao-com-mosquetao/15mm-1659/" title=" Cordão Com Mosquetão">15MM</a></li>
+            <li><a href="/catalogue/category/empresas/cordao-com-mosquetao/20mm-1660/" title="Cordão Com Mosquetão">20MM</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B4"/>
+          <label for="AA-B4">COMANDA</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-B5"/>
+              <label for="AA-B5">APERGAMINHADO 75G</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-B6"/>
+                  <label for="AA-B6">150x105MM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/comanda/apergaminhado-75g/150x105mm/frente-1814/" title="Comanda Apergaminhado - 150x105MM - Frente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/cordao-com-mosquetao/20mm-1660/" title="Comanda Apergaminhado - 150x105MM - Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-B7"/>
+                  <label for="AA-B7">150x210MM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/comanda/apergaminhado-75g/150x210mm-1664/" title="Comanda Apergaminhado - 150x210MM - Frente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/comanda/apergaminhado-75g/150x210mm/frente-e-verso-1815/" title="Comanda Apergaminhado - 150x210MM - Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-B8"/>
+                  <label for="AA-B8">300x210MM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/comanda/apergaminhado-75g/300x210mm/frente-1818/" title="Comanda Apergaminhado - 300x210MM - Frente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/comanda/apergaminhado-75g/300x210mm/frente-e-verso-1817/" title="Comanda Apergaminhado - 300x210MM - Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B9"/>
+          <label for="AA-B9">CORDA PARA CRACHÁ</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/corda-para-cracha/15mm-1667/" title="Corda Para Crachá - 15MM">15MM</a></li>
+            <li><a href="/catalogue/category/empresas/corda-para-cracha/20mm-1668/" title="Corda Para Crachá - 20MM">20MM</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B10"/>
+          <label for="AA-B10">CRACHÁ</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/cracha/horizontal-1670/" title="Crachá  Horizontal">HORIZONTAL</a></li>
+            <li><a href="/catalogue/category/empresas/cracha/vertical-1671/" title="Crachá Vertical">VERTICAL</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-B11"/>
+          <label for="AA-B11">FORRO BANDEJA</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-B12"/>
+              <label for="AA-B12">OFFSET 75G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/forro-bandeja/offset-75g/420x300-mm-1695/" title="Forro-bandeja – offset-75g - 420X300MM">420x300 MM</a></li>
+                <li><a href="/catalogue/category/empresas/forro-bandeja/offset-75g/480x330-mm-1696/" title="Forro-bandeja – offset-75g - 480x330MM ">480x330 MM</a></li>
+                <li><a href="/catalogue/category/empresas/forro-bandeja/offset-75g/300x210-mm-1697/" title="Forro-bandeja – offset-75g - 300x210MM ">300x210 MM</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-C1"/>
+          <label for="AA-C1">ÍMÃ DE GELADEIRA</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/ima-de-geladeira/corte-reto-com-calendario-1762/" title="Ímã De Geladeira - Corte Reto Com Calendário">CORTE RETO COM CALENDÁRIO</a></li>
+            <li><a href="/catalogue/category/empresas/ima-de-geladeira/corte-reto-1761/" title="Ímã De Geladeira - Corte Reto">CORTE RETO</a></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-C2"/>
+              <label for="AA-C2">CORTE ESPECIAL</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/ima-de-geladeira/corte-especial/lam-fosca-1676/" title="Ímã De Geladeira - Corte especial - Lam fosca + Verniz Local">LAM FOSCA + VERNIZ LOCAL</a></li>
+                <li><a href="/catalogue/category/empresas/ima-de-geladeira/corte-especial/verniz-uv-total-fr-1677/" title="Ímã De Geladeira - Corte especial -Verniz uv total fr">VERNIZ UV TOTAL FR</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-C3"/>
+              <label for="AA-C3">4 CANTOS ARREDONDADO</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/ima-de-geladeira/4-cantos-arredondado/verniz-uv-total-fr-1679/" title="Ímã De Geladeira - 4-Cantos-Arredondado - Verniz uv total fr">VERNIZ UV TOTAL FR</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-C4"/>
+          <label for="AA-C4">PANFLETOS, FLYERS E FOLHETOS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-C5"/>
+              <label for="AA-C5">COUCHÊ 90G</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C6"/>
+                  <label for="AA-C6">21X30 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/21x30-cm/frente-1820/" title="Panfletos-Flyers-E-Folhetos Couche-90g 21x30-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/21x30-cm/frente-e-verso-1819/" title="Panfletos-Flyers-E-Folhetos Couche-90g 21x30-Cm Frente e verso">FRENTE E VERSO</a></li>
+
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C7"/>
+                  <label for="AA-C7">15X21 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/15x21-cm/frente-1822/" title="Panfletos-Flyers-E-Folhetos Couche-90g 15x21-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/15x21-cm/frente-e-verso-1821/" title="Panfletos-Flyers-E-Folhetos Couche-90g 15x21-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C8"/>
+                  <label for="AA-C8">10X15 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/10x15-cm/frente-1824/" title="Panfletos-Flyers-E-Folhetos Couche-90g 10x15-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/10x15-cm/frente-e-verso-1823/" title="Panfletos-Flyers-E-Folhetos Couche-90g 10x15-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-C9"/>
+              <label for="AA-C9">COUCHÊ 115G</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C10"/>
+                  <label for="AA-C10">21X30 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/21x30-cm/frente-1826/" title="Panfletos-Flyers-E-Folhetos Couche-115g 21x30-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/21x30-cm/frente-e-verso-1825/" title="Panfletos-Flyers-E-Folhetos Couche-115g 21x30-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C11"/>
+                  <label for="AA-C11">15X21 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/15x21-cm/frente-1828/" title="Panfletos-Flyers-E-Folhetos Couche-115g 15x21-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/15x21-cm/frente-e-verso-1827/" title="Panfletos-Flyers-E-Folhetos Couche-115g 15x21-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-C12"/>
+                  <label for="AA-C12">10X15 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/10x15-cm/frente-1830/" title="Panfletos-Flyers-E-Folhetos Couche-115g 10x15-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/10x15-cm/frente-e-verso-1829/" title="Panfletos-Flyers-E-Folhetos Couche-115g 10x15-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-D0"/>
+              <label for="AA-D0">COUCHÊ 170G</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-D1"/>
+                  <label for="AA-D1">21X30 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/21x30-cm/frente-1832/" title="Panfletos-Flyers-E-Folhetos Couche-170g 21x30-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/21x30-cm/frente-e-verso-1831/" title="Panfletos-Flyers-E-Folhetos Couche-170g 21x30-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-D2"/>
+                  <label for="AA-D2">15X21 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/15x21-cm/frente-1834/" title="Panfletos-Flyers-E-Folhetos Couche-170g 15x21-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/15x21-cm/frente-e-verso-1833/" title="Panfletos-Flyers-E-Folhetos Couche-170g 15x21-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-D3"/>
+                  <label for="AA-D3">10X15 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/10x15-cm/frente-1836/" title="Panfletos-Flyers-E-Folhetos Couche-170g 10x15-Cm Somente Rente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/10x15-cm/frente-e-verso-1835/" title="Panfletos-Flyers-E-Folhetos Couche-170g 10x15-Cm Frente e verso">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="BB-BA"/>
+          <label for="BB-BA">PANFLETO</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="BB-BB"/>
+              <label for="BB-BB">COUCHÊ 90G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/10x15-cm-1764/" title="Panfleto - Papel Chouche 90 10x15">10x15CM</a></li>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-90g/15x21-cm-1765/" title="Panfleto - Papel Chouche 90 15x21">15x21CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="BB-BC"/>
+              <label for="BB-BC">COUCHÊ 115G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/10x15-cm-1767/" title="Panfleto - Papel Chouche 115 10x15">10x15CM</a></li>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-115g/15x21-cm-1768/" title="Panfleto - Papel Chouche 115 15x21">15x21CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="BB-BD"/>
+              <label for="BB-BD">COUCHÊ 170G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/10x15-cm-1770/" title="Panfleto - Papel Chouche 170 10x15">10x15CM</a></li>
+                <li><a href="/catalogue/category/empresas/panfletos-flyers-e-folhetos/couche-170g/15x21-cm-1771/" title="Panfleto - Papel Chouche 170 15x21">15x21CM</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="CC-CC"/>
+          <label for="CC-CC">FOLDER</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/folder/300x210-mm/couche-115g-1740/" title="Folder - Papel Couche 115">COUCHÊ 115G</a></li>
+            <li><a href="/catalogue/category/empresas/folder/300x210-mm/couche-170g-1741/" title="Folder - Papel Couche 145">COUCHÊ 145G</a></li>
+            <li><a href="/catalogue/category/empresas/folder/300x210-mm/2-dobras-1694/" title="Folder - Papel Couche 170">COUCHÊ 170G</a></li>
+            <li><a href="/catalogue/category/empresas/folder/300x210-mm/couche-300g-1791/" title="Folder - Papel Couche 300">COUCHÊ 300G</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="DD-DD"/>
+          <label for="DD-DD">ENVELOPE</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/envelope/oficio-1686/" title="Envelope - Oficio">OFÍCIO</a></li>
+            <li><a href="/catalogue/category/empresas/envelope/carta-1688/" title="Envelope - Carta">CARTA</a></li>
+            <li><a href="/catalogue/category/empresas/envelope/a3-1690/" title="Envelope - A3">A3</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="EE-EE"/>
+          <label for="EE-EE">PASTA</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/pasta/com-orelha-1699/" title="Pasta - Com orelha">A4 - COM ORELHA</a></li>
+            <li><a href="/catalogue/category/empresas/pasta/a4-com-orelha-laminacao-1792/" title="Pasta - Com orelha e laminação">A4 - COM ORELHA E LAMINAÇÃO</a></li>
+            <li><a href="/catalogue/category/empresas/pasta/com-bolso-1703/" title="Pasta - Com orelha e laminação e bolso">A4 - COM ORELHA E BOLSO</a></li>
+            <li><a href="/catalogue/category/empresas/pasta/a4-com-orelha-bolso-laminacao-1793/" title="Pasta - Com orelha, laminação e bolso">A4 - COM ORELHA, LAMINAÇÃO E BOLSO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-D4"/>
+          <label for="AA-D4">PULSEIRA DE IDENTIFICAÇÃO</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/pulseira-de-identificacao-1707/" title="Pulseira de identificação">PULSEIRA DE IDENTIFICAÇÃO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-D5"/>
+          <label for="AA-D5">RECEITUÁRIO</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-D6"/>
+              <label for="AA-D6">OFF-SET 75G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/receituario/apergaminhado-90g/150x210-mm-1710/" title="Receituario  Off-set 75g - Bloco 15x21cm">BLOCO 15X21CM</a></li>
+                <li><a href="/catalogue/category/empresas/receituario/apergaminhado-90g/300x210-mm-1711/" title="Receituario  Off-set 75g - Bloco 21x30cm">BLOCO 21X30CM</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-D7"/>
+          <label for="AA-D7">TIMBRADO</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/timbrado-2216/" title="Timbrado">TIMBRADO</a></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-D8"/>
+          <label for="AA-D8">CARTELA BRINCO, PULSEIRA E COLAR</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-D9"/>
+              <label for="AA-D9">LAMINAÇÃO FOSCA</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca/88x48-cm-1778/" title=" Tag de roupa 8,8x4,8 cm">TAG DE ROUPA 8,8X4,8 CM</a></li>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca/88x22-cm-1777/" title="Tag de roupa 8,8x2,2 cm">TAG DE ROUPA 8,8X4,8 CM</a></li>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca/42x48-cm-1776/" title=" Cartela de Brinco 4,2x4,8 cm">CARTELA DE BRINCO 4,2X4,8 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-D10"/>
+              <label for="AA-D10">LAMINAÇÃO FOSCA E VERNIZ LOCALIZADO</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-verniz-localizado/179x48-cm-1783/" title="Brinco e pulseira 17,9x4,8 cm">BRINCO E PULSEIRA 17,9X4,8 CM</a></li>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-verniz-localizado/88x48-cm-1782/" title="Tag para roupa 8,8x4,8 cm">TAG PARA ROUPA 8,8X4,8 CM</a></li>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-verniz-localizado/88x22-cm-1781/" title=" Tag para Roupa 8,8x2,2 cm">TAG PARA ROUPA 8,8X2,2 CM</a></li>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-verniz-localizado/42x48-cm-1780/" title="Cartela de Brinco 4,2x4,8 cm">CARTELA DE BRINCO 4,2X4,8 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-D11"/>
+              <label for="AA-D11">LAMINAÇÃO BRILHO FRENTE</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/179x48-cm-1787/" title="Cartela Brinco e Pulseira 17,9x4,8 cm">CARTELA BRINCO E PULSEIRA 17,9X4,8 CM</a></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-D12"/>
+                  <label for="AA-D12">TAG ROUPA 8,8X4,8 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/88x48-cm/frente-1838/" title="Tag roupa 8,8x4,8 cm">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/88x48-cm/frente-e-verso-1837/" title="Tag roupa 8,8x4,8 cm">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-E0"/>
+                  <label for="AA-E0">TAG DE ROUPA 8,8X2,2 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/88x22-cm/frente-1840/" title="Tag de roupa 8,8x2,2 cm">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/88x22-cm/frente-e-verso-1839/" title="Tag de roupa 8,8x2,2 cm">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-E1"/>
+                  <label for="AA-E1">CARTELA DE BRINCO 4,2X4,8 CM</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/42x48-cm/frente-1842/" title="Cartela De Brinco 4,2x4,8 Cm">FRENTE</a></li>
+                    <li><a href="catalogue/category/empresas/tags/laminacao-fosca-e-hotstamping/42x48-cm/frente-e-verso-1841/" title="Cartela De Brinco 4,2x4,8 Cm">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-E2"/>
+          <label for="AA-E2">PORTA COPOS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="AA-E3"/>
+              <label for="AA-E3">COUCHÊ 300G</label>
+              <ul>
+                <li><a href="/catalogue/category/empresas/porta-copos/couche-300g/laminacao-fosca-1723/" title="Couchê 300G">LAMINAÇÃO FOSCA</a></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="AA-E4"/>
+                  <label for="AA-E4">VERNIZ UV TOTAL FR</label>
+                  <ul>
+                    <li><a href="/catalogue/category/empresas/porta-copos/couche-300g/verniz-uv-total-fr/frente-1844/" title="Frente">FRENTE</a></li>
+                    <li><a href="/catalogue/category/empresas/porta-copos/couche-300g/verniz-uv-total-fr/frente-e-verso-1843/" title="Frente">FRENTE E VERSO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+        <li><div class="sub-item">
+          <input type="checkbox" id="AA-E5"/>
+          <label for="AA-E5">CARTAZES E POSTERS</label>
+          <ul>
+            <li><a href="/catalogue/category/empresas/cartazes-e-posters/30x42-cm-1735/" title="Cartazes-E-Posters 30x42CM">30X42 CM</a></li>
+            <li><a href="/catalogue/category/empresas/cartazes-e-posters/42x62-cm-1736/" title="Cartazes-E-Posters 42X62CM">42X62 CM</a></li>
+            <li><a href="/catalogue/category/empresas/cartazes-e-posters/42x62-cm_2-1737/" title="Cartazes-E-Posters 45x65 cm">45X65 CM</a></li>
+          </ul>
+        </div></li>
+      </ul>
+    </div>
+    <div class="item">
+      <input type="checkbox" id="FF"/>
+      <label for="FF">FESTAS</label>
+      <ul>
+        <li><div class="sub-item">
+          <input type="checkbox" id="FF-F1"/>
+          <label for="FF-F1">QUINZE ANOS</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F2"/>
+              <label for="FF-F2">ADESIVOS DE CHÃO</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="FF-F3"/>
+                  <label for="FF-F3">PAPEL DE PAREDE</label>
+                  <ul>
+                    <li><a href="/catalogue/category/festas/15-anos/adesivos-de-chao/papel-de-parede-2077/" title="Papel de parede">PAPEL DE PAREDE</a></li>
+                    <li><a href="/catalogue/category/festas/15-anos/adesivos-de-chao/adesivo-vinil-para-parede-2073/" title="Adesivo Vinil Para Parede">ADESIVO VINIL PARA PAREDE</a></li>
+                    <li><a href="/catalogue/category/festas/15-anos/adesivos-de-chao/adesivo-vinil-para-chao-2069/" title="Adesivo Vinil Para Chão">ADESIVO VINIL PARA CHÃO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F4"/>
+              <label for="FF-F4">ALMOFADAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/almofadas/almofada-pescoco-adulto-35x35-cm-2097/" title="Almofada Pescoço Adulto 35x35 Cm">ALMOFADA PESCOÇO ADULTO 35X35 CM</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/almofadas/almofada-pescoco-infantil-23x23-cm-2093/" title="Almofada Pescoço Infantil 23x23 Cm">ALMOFADA PESCOÇO INFANTIL 23X23 CM</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/almofadas/almofada-coracao-30x30-cm-2089/" title="Almofada Coração 30x30 Cm">ALMOFADA CORAÇÃO 30X30 CM</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/almofadas/almofada-30x20-cm-2085/" title="Almofada 30x20 Cm">ALMOFADA 30X20 CM</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/almofadas/almofada-20x20-cm-2081/" title="Almofada 20x20 Cm">ALMOFADA 20X20 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F5"/>
+              <label for="FF-F5">BANNER</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/banner-2057/" title="Banner">BANNER</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F6"/>
+              <label for="FF-F6">BOLSAS PERSONALIZADAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/bolsas-personalizadas-2053/" title="Bolsas Personalizadas">BOLSAS PERSONALIZADAS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F7"/>
+              <label for="FF-F7">CANECA PORCELANA</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/caneca-porcelana-2049/" title="Caneca porcelana">CANECA PORCELANA</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F8"/>
+              <label for="FF-F8">CANECA CHOPP</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/caneca-chopp/caneca-de-chopp-sublimado-2107/" title="Caneca De Chopp Sublimado">CANECA DE CHOPP SUBLIMADO</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/caneca-chopp/caneca-de-chopp-serigrafado-2104/" title="Caneca De Chopp Serigrafado">CANECA DE CHOPP SERIGRAFADO</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/caneca-chopp/caneca-de-chopp-adesivado-2101/" title="Caneca De Chopp Adesivado">CANECA DE CHOPP ADESIVADO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F9"/>
+              <label for="FF-F9">CONVITES</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/convites/convites-simples-2115/" title="Convites Simples">CONVITES SIMPLES</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/convites/convite-15-anos-2114/" title="Convite 15 Anos">CONVITE 15 ANOS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F10"/>
+              <label for="FF-F10">COPO LONG DRINK</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/copo-long-drink/copo-branco-sublimado-2127/" title="Copo Branco Sublimado">COPO BRANCO SUBLIMADO</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/copo-long-drink/copo-serigrafado-2123/" title="Copo Serigrafado">COPO SERIGRAFADO</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/copo-long-drink/copo-com-adesivo-leitoso-2119/" title="Copo Com Adesivo Leitoso">COPO COM ADESIVO LEITOSO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F11"/>
+              <label for="FF-F11">DISPLAY</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/display/pvc-de-parede-2135/" title="Copo Branco Sublimado">PVC DE PAREDE</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/display/display-de-mesa-e-chao-2131/" title="Display De Mesa E Chão">DISPLAY DE MESA E CHÃO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F12"/>
+              <label for="FF-F12">ESTAMPAS EM GERAL</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/estampa-em-tecidos-2163/" title="Estampa Em Tecidos">ESTAMPA EM TECIDOS</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/ceramica-2159/" title="Cerâmica">CERÂMICA</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/bolsa-estampada-2151/" title="Bolsa Estampada">BOLSA ESTAMPADA</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/quebra-cabeca-15x20-cm-2147/" title="Quebra - Cabeça 15x20 Cm">QUEBRA - CABEÇA 15X20 CM</a></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="FF-F13"/>
+                  <label for="FF-F13">MOCHILA DE COSTAS</label>
+                  <ul>
+                    <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/mochila-de-costas/mochila-adulto-2179/" title="Mochila Adulto">MOCHILA ADULTO</a></li>
+                    <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/mochila-de-costas/mochila-infantil-2176/" title="Mochila Infantil">MOCHILA INFANTIL</a></li>
+                  </ul>
+                </div></li>
+                <li><a href="/catalogue/category/festas/15-anos/estampas-em-geral/tapa-olho-2139/" title="Tapa Olho">TAPA OLHO</a></li>
+              </ul>
+            </div></li>
+
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F14"/>
+              <label for="FF-F14">QUADRO DE ASSINATURAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/quadro-de-assinaturas-2026/" title="Quadro de assinaturas">QUADRO DE ASSINATURAS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-F15"/>
+              <label for="FF-F15">SANDÁLIAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/sandalias/sandalia-sublimada-2171/" title="Sandália Sublimada">SANDÁLIA SUBLIMADA</a></li>
+                <li><a href="/catalogue/category/festas/15-anos/sandalias/sandalia-serigrafada-2167/" title="Sandália Serigrafada">SANDÁLIA SERIGRAFADA</a></li>
+              </ul>
+            </div></li>
+          </ul>
+        </div></li>
+          <li><div class="sub-item">
+          <input type="checkbox" id="FF-G0"/>
+          <label for="FF-G0">CASAMENTO</label>
+          <ul>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G1"/>
+              <label for="FF-G1">ADESIVOS DE CHÃO</label>
+              <ul>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="FF-G3"/>
+                  <label for="FF-G3">PAPEL DE PAREDE</label>
+                  <ul>
+                    <li><a href="/catalogue/category/festas/casamento/adesivos-de-chao/papel-de-parede-2078/" title="Papel de parede">PAPEL DE PAREDE</a></li>
+                    <li><a href="/catalogue/category/festas/casamento/adesivos-de-chao/adesivo-vinil-para-parede-2074/" title="Adesivo Vinil Para Parede">ADESIVO VINIL PARA PAREDE</a></li>
+                    <li><a href="/catalogue/category/festas/casamento/adesivos-de-chao/adesivo-vinil-para-chao-2070/" title="Adesivo Vinil Para Chão">ADESIVO VINIL PARA CHÃO</a></li>
+                  </ul>
+                </div></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G4"/>
+              <label for="FF-G4">ALMOFADAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/almofadas/almofada-pescoco-adulto-35x35-cm-2098/" title="Almofada Pescoço Adulto 35x35 Cm">ALMOFADA PESCOÇO ADULTO 35X35 CM</a></li>
+                <li><a href="/catalogue/category/festas/casamento/almofadas/almofada-pescoco-infantil-23x23-cm-2094/" title="Almofada Pescoço Infantil 23x23 Cm">ALMOFADA PESCOÇO INFANTIL 23X23 CM</a></li>
+                <li><a href="/catalogue/category/festas/casamento/almofadas/almofada-coracao-30x30-cm-2090/" title="Almofada Coração 30x30 Cm">ALMOFADA CORAÇÃO 30X30 CM</a></li>
+                <li><a href="/catalogue/category/festas/casamento/almofadas/almofada-30x20-cm-2086/" title="Almofada 30x20 Cm">ALMOFADA 30X20 CM</a></li>
+                <li><a href="/catalogue/category/festas/casamento/almofadas/almofada-20x20-cm-2082/" title="Almofada 20x20 Cm">ALMOFADA 20X20 CM</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G5"/>
+              <label for="FF-G5">BANNER</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/banner-2058/" title="Banner">BANNER</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G6"/>
+              <label for="FF-G6">BOLSAS PERSONALIZADAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/bolsas-personalizadas-2054/" title="Bolsas Personalizadas">BOLSAS PERSONALIZADAS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G7"/>
+              <label for="FF-G7">CANECA PORCELANA</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/caneca-porcelana-2050/" title="Caneca porcelana">CANECA PORCELANA</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G8"/>
+              <label for="FF-G8">CANECA CHOPP</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/caneca-chopp/caneca-de-chopp-sublimado-2108/" title="Caneca De Chopp Sublimado">CANECA DE CHOPP SUBLIMADO</a></li>
+                <li><a href="/catalogue/category/festas/casamento/caneca-chopp/caneca-de-chopp-serigrafado-2105/" title="Caneca De Chopp Serigrafado">CANECA DE CHOPP SERIGRAFADO</a></li>
+                <li><a href="/catalogue/category/festas/casamento/caneca-chopp/caneca-de-chopp-adesivado-2102/" title="Caneca De Chopp Adesivado">CANECA DE CHOPP ADESIVADO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G9"/>
+              <label for="FF-G9">CONVITES</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/15-anos/convites/convites-simples-2115/" title="Convites Simples">CONVITES SIMPLES</a></li>
+                <li><a href="/catalogue/category/festas/casamento/convites/convite-casamento-2113/" title="Convite 15 Anos">CONVITE CASAMENTO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G10"/>
+              <label for="FF-G10">COPO LONG DRINK</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/copo-long-drink/copo-branco-sublimado-2128/" title="Copo Branco Sublimado">COPO BRANCO SUBLIMADO</a></li>
+                <li><a href="/catalogue/category/festas/casamento/copo-long-drink/copo-serigrafado-2124/" title="Copo Serigrafado">COPO SERIGRAFADO</a></li>
+                <li><a href="/catalogue/category/festas/casamento/copo-long-drink/copo-com-adesivo-leitoso-2120/" title="Copo Com Adesivo Leitoso">COPO COM ADESIVO LEITOSO</a></li>
+
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G11"/>
+              <label for="FF-G11">DISPLAY</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/display/pvc-de-parede-2136/" title="Copo Branco Sublimado">PVC DE PAREDE</a></li>
+                <li><a href="/catalogue/category/festas/casamento/display/display-de-mesa-e-chao-2132/" title="Display De Mesa E Chão">DISPLAY DE MESA E CHÃO</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G12"/>
+              <label for="FF-G12">ESTAMPAS EM GERAL</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/estampa-em-tecidos-2164/" title="Estampa Em Tecidos">ESTAMPA EM TECIDOS</a></li>
+                <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/ceramica-2160/" title="Cerâmica">CERÂMICA</a></li>
+                <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/camisas-2156/" title="Camisas">CAMISAS</a></li>
+                <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/bolsa-estampada-2152/" title="Bolsa Estampada">BOLSA ESTAMPADA</a></li>
+                <li><a href="catalogue/category/festas/casamento/estampas-em-geral/quebra-cabeca-15x20-cm-2148/" title="Quebra - Cabeça 15x20 Cm">QUEBRA - CABEÇA 15X20 CM</a></li>
+                <li><div class="sub-item">
+                  <input type="checkbox" id="FF-G13"/>
+                  <label for="FF-G13">MOCHILA DE COSTAS</label>
+                  <ul>
+                    <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/mochila-de-costas/mochila-adulto-2183/" title="Mochila Adulto">MOCHILA ADULTO</a></li>
+                    <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/mochila-de-costas/mochila-infantil-2175/" title="Mochila Infantil">MOCHILA INFANTIL</a></li>
+                  </ul>
+                  <li><a href="/catalogue/category/festas/casamento/estampas-em-geral/tapa-olho-2140/" title="Tapa Olho">TAPA OLHO</a></li>
+                </ul>
+              </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G14"/>
+              <label for="FF-G14">QUADRO DE ASSINATURAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/quadro-de-assinaturas-2027/" title="Quadro de assinaturas">QUADRO DE ASSINATURAS</a></li>
+              </ul>
+            </div></li>
+            <li><div class="sub-item">
+              <input type="checkbox" id="FF-G15"/>
+              <label for="FF-G15">SANDÁLIAS</label>
+              <ul>
+                <li><a href="/catalogue/category/festas/casamento/sandalias/sandalia-sublimada-2172/" title="Sandália Sublimada">SANDÁLIA SUBLIMADA</a></li>
+                <li><a href="/catalogue/category/festas/casamento/sandalias/sandalia-serigrafada-2168/" title="Sandália Serigrafada">SANDÁLIA SERIGRAFADA</a></li>
+              </ul>
+            </div></li>
+          </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-H0"/>
+            <label for="FF-H0">FESTA INFANTIL</label>
+            <ul>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H1"/>
+                <label for="FF-H1">ADESIVOS DE CHÃO</label>
+                <ul>
+                  <li><div class="sub-item">
+                    <input type="checkbox" id="FF-H2"/>
+                    <label for="FF-H2">PAPEL DE PAREDE</label>
+                    <ul>
+                      <li><a href="/catalogue/category/festas/festa-infantil/adesivos-de-chao/papel-de-parede-2079/" title="Papel de parede">PAPEL DE PAREDE</a></li>
+                      <li><a href="/catalogue/category/festas/festa-infantil/adesivos-de-chao/adesivo-vinil-para-parede-2075/" title="Adesivo Vinil Para Parede">ADESIVO VINIL PARA PAREDE</a></li>
+                      <li><a href="/catalogue/category/festas/festa-infantil/adesivos-de-chao/adesivo-vinil-para-chao-2071/" title="Adesivo Vinil Para Chão">ADESIVO VINIL PARA CHÃO</a></li>
+                    </ul>
+                  </div></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H4"/>
+                <label for="FF-H4">ALMOFADAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/almofadas/almofada-pescoco-adulto-35x35-cm-2099/" title="Almofada Pescoço Adulto 35x35 Cm">ALMOFADA PESCOÇO ADULTO 35X35 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/almofadas/almofada-pescoco-infantil-23x23-cm-2095/" title="Almofada Pescoço Infantil 23x23 Cm">ALMOFADA PESCOÇO INFANTIL 23X23 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/almofadas/almofada-coracao-30x30-cm-2091/" title="Almofada Coração 30x30 Cm">ALMOFADA CORAÇÃO 30X30 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/almofadas/almofada-30x20-cm-2087/" title="Almofada 30x20 Cm">ALMOFADA 30X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/almofadas/almofada-20x20-cm-2083/" title="Almofada 20x20 Cm">ALMOFADA 20X20 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H5"/>
+                <label for="FF-H5">BANNER</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/banner-2059/" title="Banner">BANNER</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H6"/>
+                <label for="FF-H6">BOLSAS PERSONALIZADAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/bolsas-personalizadas-2055/" title="Bolsas Personalizadas">BOLSAS PERSONALIZADAS</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H7"/>
+                <label for="FF-H7">CANECA PORCELANA</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/caneca-porcelana-2051/" title="Caneca porcelana">CANECA PORCELANA</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H8"/>
+                <label for="FF-H8">CONVITES</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/convites/convites-simples-2117/" title="Convites Simples">CONVITES SIMPLES</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/convites/convite-infantil-2112/" title="Convite 15 Anos">CONVITE CASAMENTO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H9"/>
+                <label for="FF-H9">COPO LONG DRINK</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-branco-sublimado-2129/" title="Copo Branco Sublimado">COPO BRANCO SUBLIMADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-serigrafado-2125/" title="Copo Serigrafado">COPO SERIGRAFADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-com-adesivo-leitoso-2121/" title="Copo Com Adesivo Leitoso">COPO COM ADESIVO LEITOSO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H10"/>
+                <label for="FF-H10">DISPLAY</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/display/pvc-de-parede-2137/" title="Copo Branco Sublimado">PVC DE PAREDE</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/display/display-de-mesa-e-chao-2133/" title="Display De Mesa E Chão">DISPLAY DE MESA E CHÃO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H11"/>
+                <label for="FF-H11">ESTAMPAS EM GERAL</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/estampas-em-geral/estampa-em-tecidos-2165/" title="Estampa Em Tecidos">ESTAMPA EM TECIDOS</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/estampas-em-geral/ceramica-2161/" title="Cerâmica">CERÂMICA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/estampas-em-geral/camisas-2157/" title="Camisas">CAMISAS</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/estampas-em-geral/bolsa-estampada-2153/" title="Bolsa Estampada">BOLSA ESTAMPADA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/estampas-em-geral/quebra-cabeca-15x20-cm-2149/" title="Quebra - Cabeça 15x20 Cm">QUEBRA - CABEÇA 15X20 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H12"/>
+                <label for="FF-H12">QUADRO DE ASSINATURAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/quadro-de-assinaturas-2028/" title="Quadro de assinaturas">QUADRO DE ASSINATURAS</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-H13"/>
+                <label for="FF-H13">SANDÁLIAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/sandalias/sandalia-sublimada-2173/" title="Sandália Sublimada">SANDÁLIA SUBLIMADA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/sandalias/sandalia-serigrafada-2169/" title="Sandália Serigrafada">SANDÁLIA SERIGRAFADA</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-I0"/>
+            <label for="FF-I0">FESTA DE FORMATURA</label>
+            <ul>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I1"/>
+                <label for="FF-I1">ADESIVOS DE CHÃO</label>
+                <ul>
+                  <li><div class="sub-item">
+                    <input type="checkbox" id="FF-I2"/>
+                    <label for="FF-I2">PAPEL DE PAREDE</label>
+                    <ul>
+                      <li><a href="/catalogue/category/festas/festa-de-formatura/adesivos-de-chao/papel-de-parede-2080/" title="Papel de parede">PAPEL DE PAREDE</a></li>
+                      <li><a href="/catalogue/category/festas/festa-de-formatura/adesivos-de-chao/adesivo-vinil-para-parede-2076/" title="Adesivo Vinil Para Parede">ADESIVO VINIL PARA PAREDE</a></li>
+                      <li><a href="/catalogue/category/festas/festa-de-formatura/adesivos-de-chao/adesivo-vinil-para-chao-2072/" title="Adesivo Vinil Para Chão">ADESIVO VINIL PARA CHÃO</a></li>
+                    </ul>
+                  </div></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I3"/>
+                <label for="FF-I3">ALMOFADAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/almofadas/almofada-pescoco-adulto-35x35-cm-2100/" title="Almofada Pescoço Adulto 35x35 Cm">ALMOFADA PESCOÇO ADULTO 35X35 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/almofadas/almofada-pescoco-infantil-23x23-cm-2096/" title="Almofada Pescoço Infantil 23x23 Cm">ALMOFADA PESCOÇO INFANTIL 23X23 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/almofadas/almofada-coracao-30x30-cm-2092/" title="Almofada Coração 30x30 Cm">ALMOFADA CORAÇÃO 30X30 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/almofadas/almofada-30x20-cm-2088/" title="Almofada 30x20 Cm">ALMOFADA 30X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/almofadas/almofada-20x20-cm-2084/" title="Almofada 20x20 Cm">ALMOFADA 20X20 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I4"/>
+                <label for="FF-I4">BANNER</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/banner-2060/" title="Banner">BANNER</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I5"/>
+                <label for="FF-I5">BOLSAS PERSONALIZADAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/bolsas-personalizadas-2056/" title="Bolsas Personalizadas">BOLSAS PERSONALIZADAS</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I6"/>
+                <label for="FF-I6">CANECA PORCELANA</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/caneca-porcelana-2052/" title="Caneca porcelana">CANECA PORCELANA</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I7"/>
+                <label for="FF-I7">CANECA CHOPP</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/caneca-chopp/caneca-de-chopp-sublimado-2109/" title="Caneca De Chopp Sublimado">CANECA DE CHOPP SUBLIMADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/caneca-chopp/caneca-de-chopp-serigrafado-2106/" title="Caneca De Chopp Serigrafado">CANECA DE CHOPP SERIGRAFADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/caneca-chopp/caneca-de-chopp-adesivado-2103/" title="Caneca De Chopp Adesivado">CANECA DE CHOPP ADESIVADO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I8"/>
+                <label for="FF-I8">CONVITES</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/convites/convites-simples-2118/" title="Convites Simples">CONVITES SIMPLES</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I9"/>
+                <label for="FF-I9">COPO LONG DRINK</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-branco-sublimado-2129/" title="Copo Branco Sublimado">COPO BRANCO SUBLIMADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-serigrafado-2125/" title="Copo Serigrafado">COPO SERIGRAFADO</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/copo-long-drink/copo-com-adesivo-leitoso-2121/" title="Copo Com Adesivo Leitoso">COPO COM ADESIVO LEITOSO</a></li>
+
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I10"/>
+                <label for="FF-I10">DISPLAY</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/display/pvc-de-parede-2138/" title="Copo Branco Sublimado">PVC DE PAREDE</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/display/display-de-mesa-e-chao-2134/" title="Display De Mesa E Chão">DISPLAY DE MESA E CHÃO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I11"/>
+                <label for="FF-I11">ESTAMPAS EM GERAL</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/estampa-em-tecidos-2166/" title="Estampa Em Tecidos">ESTAMPA EM TECIDOS</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/ceramica-2162/S" title="Cerâmica">CERÂMICA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/camisas-2158/" title="Camisas">CAMISAS</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/bolsa-estampada-2154/" title="Bolsa Estampada">BOLSA ESTAMPADA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/quebra-cabeca-15x20-cm-2150/" title="Quebra - Cabeça 15x20 Cm">QUEBRA - CABEÇA 15X20 CM</a></li>
+                  <li><div class="sub-item">
+                    <input type="checkbox" id="FF-I12"/>
+                    <label for="FF-I12">MOCHILA DE COSTAS</label>
+                    <ul>
+                      <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/mochila-de-costas/mochila-adulto-2185/" title="Mochila Adulto">MOCHILA ADULTO</a></li>
+                      <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/mochila-de-costas/mochila-infantil-2178/" title="Mochila Infantil">MOCHILA INFANTIL</a></li>
+                    </ul>
+                  </div></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/estampas-em-geral/tapa-olho-2142/" title="Tapa Olho">TAPA OLHO</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I13"/>
+                <label for="FF-I13">QUADRO DE ASSINATURAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/quadro-de-assinaturas-2029/" title="Quadro de assinaturas">QUADRO DE ASSINATURAS</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-I14"/>
+                <label for="FF-I14">SANDÁLIAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/sandalias/sandalia-sublimada-2174/" title="Sandália Sublimada">SANDÁLIA SUBLIMADA</a></li>
+                  <li><a href="/catalogue/category/festas/festa-de-formatura/sandalias/sandalia-serigrafada-2170/" title="Sandália Serigrafada">SANDÁLIA SERIGRAFADA</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-JJ1"/>
+            <label for="FF-JJ1">PROMOÇÃO MÊS DOS PAIS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/promocao-mes-dos-pais/02-canecas-porcelana-1937/" title="02 Canecas porcelana">02 CANECAS PORCELANA</a></li>
+              <li><a href="/catalogue/category/festas/promocao-mes-dos-pais/camisa-almofada-1936/" title="Almofada + camisa">ALMOFADA + CAMISA</a></li>
+              <li><a href="/catalogue/category/festas/promocao-mes-dos-pais/caneca-camisa-1935/" title="Caneca + Camisa">CANECA + CAMISA</a></li>
+              <li><a href="/catalogue/category/festas/promocao-mes-dos-pais/caneca-almofada-1934/" title="Caneca + Almofada">CANECA + ALMOFADA</a></li>
+              <li><a href="catalogue/category/festas/promocao-mes-dos-pais/02-camisas-1933/" title="02 Camisas">02 CAMISAS</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J0"/>
+            <label for="FF-J0">INGRESSOS DE SEGURANÇA</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/ingressos-de-seguranca/10x5-cm-2194/" title=" Ingressos de segurança 10X5 CM">10X5 CM</a></li>
+              <li><a href="/catalogue/category/festas/ingressos-de-seguranca/15x5-cm-2193/" title="Ingressos de segurança 15X5 CM">15X5 CM</a></li>
+              <li><a href="/catalogue/category/festas/promocao-mes-dos-pais/caneca-camisa-1935/" title="Ingressos de segurança 21X5 CM ">21X5 CM</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J1"/>
+            <label for="FF-J1">KITS FESTA</label>
+            <ul>
+              <li><a href="/ccatalogue/category/festas/kits-personalizados/kit-1-1927/" title="Kits festa Kit1 ">KIT 1</a></li>
+              <li><a href="/catalogue/category/festas/kits-personalizados/kit-2-1926/" title="Kits festa Kit2">KIT 2</a></li>
+              <li><a href="/catalogue/category/festas/kits-personalizados/kit-3-1925/" title="Kits festa Kit3">KIT 3</a></li>
+              <li><a href="/catalogue/category/festas/kits-personalizados/kit-4-1924/" title="Kits festa Kit4">KIT 3</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J2"/>
+            <label for="FF-J2">PAPEL ARROZ</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/papel-arroz-1922/" title="Papel arroz ">PAPEL ARROZ</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J3"/>
+            <label for="FF-J3">FOTOLIVRO</label>
+            <ul>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-J4"/>
+                <label for="FF-J4">FOTOLIVRO 12 PÁGINAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-12-paginas/15x15-cm-1912/" title="Fotolivro 12 Páginas 15X15 CM">15X15 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-12-paginas/15x21-cm-1911/" title="Fotolivro 12 Páginas 15X21 CM">15X21 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-12-paginas/20x20-cm-1910/" title="Fotolivro 12 Páginas 20X20 CM">20X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-12-paginas/20x25-cm-1909/" title="Fotolivro 12 Páginas 20X25 CM">20X25 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-J5"/>
+                <label for="FF-J5">FOTOLIVRO 24 PÁGINAS</label>
+
+                <ul>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-24-paginas/15x15-cm-1907/" title="Fotolivro 24 Páginas 15X15 CM">15X15 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-24-paginas/15x21-cm-1906/" title="Fotolivro 24 Páginas 15X21 CM">15X21 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-24-paginas/20x20-cm-1905/" title="Fotolivro 24 Páginas 20X20 CM">20X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-24-paginas/20x25-cm-1904/" title="Fotolivro 24 Páginas 20X25 CM">20X25 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-J6"/>
+                <label for="FF-J6">FOTOLIVRO 36 PÁGINAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-36-paginas/15x15-cm-1902/" title="Fotolivro 36 Páginas 15X15 CM">15X15 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-36-paginas/15x21-cm-1901/" title="Fotolivro 36 Páginas 15X21 CM">15X21 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-36-paginas/20x20-cm-1900" title="Fotolivro 36 Páginas 20X20 CM">20X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-36-paginas/20x25-cm-1899/" title="Fotolivro 36 Páginas 20X25 CM">20X25 CM</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-J7"/>
+                <label for="FF-J7">FOTOLIVRO 48 PÁGINAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-48-paginas/15x15-cm-1897/" title="Fotolivro 48 Páginas 15X15 CM">15X15 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-48-paginas/15x21-cm-1896/" title="Fotolivro 48 Páginas 15X21 CM">15X21 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-48-paginas/20x20-cm-1895/" title="Fotolivro 48 Páginas 20X20 CM">20X20 CM</a></li>
+                  <li><a href="/catalogue/category/festas/fotolivro/fotolivro-48-paginas/20x25-cm-1894/" title="Fotolivro 48 Páginas 20X25 CM">20X25 CM</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J8"/>
+            <label for="FF-J8">QUADRO COFRE</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/quadro-cofre/quadro-cofre-pequeno-1891/" title="Quadro cofre pequeno">QUADRO COFRE PEQUENO</a></li>
+              <li><a href="/catalogue/category/festas/quadro-cofre/quadro-cofre-grande-1890/" title="Quadro cofre grande">QUADRO COFRE GRANDE</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J9"/>
+            <label for="FF-J9">REVELACAO FOTOGRAFICA</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/revelacao-fotografica-1559/" title="Revelacao Fotografica">REVELACAO FOTOGRAFICA</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J10"/>
+            <label for="FF-J10">ROTULOS PEQUENOS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/rotulos-pequenos/vinil-transparente-1527/" title="Vinil transparente">VINIL TRANSPARENTE</a></li>
+              <li><a href="/catalogue/category/festas/rotulos-pequenos/vinil-leitoso-1526/" title="Vinil leitoso">VINIL LEITOSO</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J11"/>
+            <label for="FF-J11">BANNER</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/banner-1524/" title="Banner">BANNER</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-J12"/>
+            <label for="FF-J12">ADESIVOS DE CHAO E PAREDE</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/adesivos-de-chao-ou-parede/papel-de-parede-1530/" title="Papel de Parede">PAPEL DE PAREDE</a></li>
+              <li><a href="/catalogue/category/festas/adesivos-de-chao-ou-parede/adesivo-parede-1529/" title="Adesivo Vinil Para Parede">ADESIVO VINIL PARA PAREDE</a></li>
+              <li><a href="/catalogue/category/festas/adesivos-de-chao-ou-parede/adesivo-para-chao-1528/" title="Banner"> ADESIVO VINIL PARA CHÃO</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L0"/>
+            <label for="FF-L0">PAINEL EM LONA</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/painel-em-lona-1522/" title="Painel Em Lona"> PAINEL EM LONA</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L1"/>
+            <label for="FF-L1">ESTAMPAS EM GERAL</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/estampa-em-tecidos-1543/" title="Estampa em tecidos">ESTAMPA EM TECIDOS</a></li>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/ceramica-1542/" title="Ceramica">CERAMICA</a></li>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/camisas-1537/" title="Camisas">CAMISAS</a></li>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/camisas-1537/" title="Bolsa estampada"> BOLSA ESTAMPADA</a></li>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/quebra-cabeca-15x20-cm-1535/" title="Quebra - cabeça 15x20 cm"> QUEBRA - CABEÇA 15X20 CM</a></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-L2"/>
+                <label for="FF-L2">  MOCHILA DE COSTAS</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/estampas-em-geral/mochila-de-costas/mochila-adulto-1534/" title="Mochila Adulto">MOCHILA ADULTOT</a></li>
+                  <li><a href="/catalogue/category/festas/estampas-em-geral/mochila-de-costas/mochila-adulto-1534/" title="Mochilla Infantil">MOCHILLA INFANTIL</a></li>
+                </ul>
+              </div></li>
+              <li><a href="/catalogue/category/festas/estampas-em-geral/tapa-olho-1531/" title="Tapa Olho">TAPA OLHO</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L3"/>
+            <label for="FF-L3">CANECA DE CHOPP</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/caneca-de-chopp/caneca-de-chopp-sublimado-1556/" title="Caneca De Chopp Sublimado">CANECA DE CHOPP SUBLIMADO</a></li>
+              <li><a href="/catalogue/category/festas/caneca-de-chopp/caneca-de-chopp-serigrafado-1555/" title="Caneca de Chopp Serigrafado">CANECA DE CHOPP SERIGRAFADO</a></li>
+              <li><a href="/catalogue/category/festas/caneca-de-chopp/caneca-de-chopp-adesivado-1554/" title="Caneca de Chopp Adesivado">CANECA DE CHOPP ADESIVADO</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L4"/>
+            <label for="FF-L4">COPOS LONG DRINK</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/caneca-de-chopp/caneca-de-chopp-sublimado-1556/" title="Copo branco Sublimado">COPO BRANCO SUBLIMADO</a></li>
+              <li><a href="/catalogue/category/festas/copos/copo-serigrafado-1551/" title="Copo Serigrafado">COPO SERIGRAFADO</a></li>
+              <li><a href="/catalogue/category/festas/copos/copo-com-adesivo-leitoso-1550/" title="Copo com Adesivo leitoso">COPO COM ADESIVO LEITOSO</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L5"/>
+            <label for="FF-L5">SANDALIAS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/sandalias/sandalia-sublimada-1558/" title=" Sandália Sublimada">SANDÁLIA SUBLIMADA</a></li>
+              <li><a href="/catalogue/category/festas/sandalias/sandalia-serigrafada-1557/" title="Sandália Serigrafada">SANDÁLIA SERIGRAFADO</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L6"/>
+            <label for="FF-L6">CAIXINHAS DE MDF</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/caixinhas-de-mdf/5x5-cm-1877/" title="Caixinhas de MDF - 5x5 cm">5X5 CM</a></li>
+              <li><a href="/catalogue/category/festas/caixinhas-de-mdf/10x10-cm-1876/" title="Caixinhas de MDF -10x10 cm">10X10 CM</a></li>
+              <li><a href="/catalogue/category/festas/caixinhas-de-mdf/15x15-cm-1875/" title="Caixinhas de MDF - 15x15 cm">15X15 CM</a></li>
+              <li><a href="/catalogue/category/festas/caixinhas-de-mdf/20x20-cm-1874/" title="Caixinhas de MDF - 20x20 cm">20X20 CM</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L7"/>
+            <label for="FF-L7">CANECAS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/canecas/caneca-de-porcelana-sublimada-1561/" title="Caneca de porcelana sublimada">CANECA DE PORCELANA SUBLIMADA</a></li>
+              <li><a href="/catalogue/category/festas/canecas/caneca-acrilica-com-foto-1560/" title="Caneca Acrílica com foto">CANECA ACRÍLICA COM FOTO</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L8"/>
+            <label for="FF-L8">CHAVEIROS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/chaveiros/chaveiro-porta-moeda-1567/" title="Chaveiro Porta - Moeda"> CHAVEIRO PORTA - MOEDA</a></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-L9"/>
+                <label for="FF-L9"> CHAVEIRO ALMOFADA SUBLIMADA</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/chaveiros/chaveiro-almofada-sublimada/chaveiro-55x55-cm-1566/" title="Chaveiro 5,5X5,5 CM"> CHAVEIRO 5,5X5,5 CM</a></li>
+                  <li><a href="/catalogue/category/festas/chaveiros/chaveiro-almofada-sublimada/chaveiro-10x7-cm-1565/" title="Chaveiro 10x7 cm"> CHAVEIRO 10X7 CM</a></li>
+                </ul>
+              </div></li>
+              <li><a href="/catalogue/category/festas/chaveiros/chaveiro-de-metal-resinado-1563/" title="Chaveiro de metal resinado">CHAVEIRO DE METAL RESINADO</a></li>
+              <li><a href="/catalogue/category/festas/chaveiros/chaveiro-de-acrilico-1562/" title="Chaveiro de Acrilico">CHAVEIRO DE ACRILICO</a></li>
+            </ul>
+          </div></li>
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L10"/>
+            <label for="FF-L10"> ALMOFADAS PERSONALIZADAS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/almofadas-personalizadas/almofada-pescoco-adulto-35x35-cm-1575/" title="Almofada Pescoço Adulto 35x35 cm">ALMOFADA PESCOÇO ADULTO 35X35 CM</a></li>
+              <li><a href="/catalogue/category/festas/almofadas-personalizadas/almofada-pescoco-infantil-23x23-cm-1574/" title="Almofada Pescoço Infantil 23x23 cm">ALMOFADA PESCOÇO INFANTIL 23X23 CM</a></li>
+              <li><a href="/catalogue/category/festas/almofadas-personalizadas/almofada-coracao-30x30-cm-1573/" title="Almofada Coração 30x30 cm">ALMOFADA CORAÇÃO 30X30 CM</a></li>
+              <li><a href="/catalogue/category/festas/almofadas-personalizadas/almofada-30x20-cm-1572/" title="Almofada 30x20 cm">ALMOFADA 30X20 CM</a></li>
+              <li><a href="/catalogue/category/festas/almofadas-personalizadas/almofada-30x20-cm-1572/" title="Almofada 20x20 cm"> ALMOFADA 20X20 CM</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L11"/>
+            <label for="FF-L11"> DISPLAY EM PVC</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/display/pvc-de-parede-1587/" title="PVC de Parede">PVC DE PAREDE</a></li>
+              <li><a href="/catalogue/category/festas/display/display-de-mesa-e-chao-1586/" title="Display de mesa e chao">DISPLAY DE MESA E CHAO</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-L12"/>
+            <label for="FF-L12">  QUADRO DE ASSINATURA</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/quadro-de-assinatura-1503/" title="Quadro de assinatura">QUADRO DE ASSINATURA</a></li>
+            </ul>
+          </div></li>
+
+
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-M0"/>
+            <label for="FF-M0"> PERSONALIZADOS DE FESTA</label>
+            <ul>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-M1"/>
+                <label for="FF-M1"> ADESIVO</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/tubete-pequeno-1864/" title="Tubete Pequeno">TUBETE PEQUENO</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/tubete-grande-1863/" title="Tubete grande">TUBETE GRANDE</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/pastilha-garoto-1862/" title="Pastilha garoto">PASTILHA GAROTO</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/pote-papinha-1861/" title="Pote papinha">POTE PAPINHA</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/mentos-mini-1860/" title="Mentos mini">MENTOS MINI</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/mentos-grande-1859/" title="Mentos Grande"> MENTOS GRANDE</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/caculinha-1858/" title="Caculinha">CACULINHA</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/bolinha-de-sabao-1857/" title="Bolinha de sabao">BOLINHA DE SABAO</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/batom-1856/" title="Batom">BATOM</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/agua-mineral-1855/" title="Agua Mineral"> AGUA MINERAL</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/bis-1854/" title="Bis">BIS</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/latinha-1853/" title="Latinha">LATINHA</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/tic-tac-1852/" title="Tic Tac">TIC TAC</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/bisnaga-brigadeiro-15gr-1851/" title="Bisnaga Brigadeiro 15g">  BISNAGA BRIGADEIRO 15G</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/bisnaga-brigadeiro-30gr-1850/" title="Bisnaga Brigadeiro 30g">BISNAGA BRIGADEIRO 30G</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-M2"/>
+                <label for="FF-M2"> COUCHE</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/bandeira-varal-pequena-1873/" title="Bandeira Varal Pequena"> BANDEIRA VARAL PEQUENA</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/bandeira-varal-grande-1872/" title="Bandeira Varal Grande"> BANDEIRA VARAL GRANDE</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/adesivo/pastilha-garoto-1862/" title="Capa pirulito">CAPA PIRULITO</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/rotulo-garrafa-1870/" title="Rotulo garrafa">ROTULO GARRAFA</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/saia-cupcake-1868/" title="Saia Cupcake">SAIA CUPCAKE</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/forminha-de-doces-1867/" title="Forminha de doces">FORMINHA DE DOCES</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/tampa-marmita-500g-1866/" title="Tampa marmita 500g">TAMPA MARMITA 500G</a></li>
+                  <li><a href="/catalogue/category/festas/adesivos/couche/tampa-marmita-250g-1865/" title="Tampa marmita 250g">TAMPA MARMITA 250G</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-M3"/>
+            <label for="FF-M3">BOLSAS PARA FESTAS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/alimenticios-659/" title="Bolsas para Festas">BOLSAS PARA FESTAS</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-M4"/>
+            <label for="FF-M4">EMBALAGENS PARA FESTAS</label>
+            <ul>
+              <li><a href="/catalogue/category/festas/decoracoes-662/" title="Embalagens para Festas">EMBALAGENS PARA FESTAS</a></li>
+            </ul>
+          </div></li>
+          <li><div class="sub-item">
+            <input type="checkbox" id="FF-FD"/>
+            <label for="FF-FD">CONVITES</label>
+            <ul>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-FE"/>
+                <label for="FF-FE">CASAMENTO</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/casamento/convites/convites-simples-2116/" title="Convite Casamento - Simples">CONVITE SIMPLES</a></li>
+                  <li><a href="/catalogue/category/festas/casamento/convites/convite-casamento-2113/" title="Convite Casamento - Especial"> CONVITE ESPECIAL</a></li>
+                </ul>
+              </div></li>
+              <li><div class="sub-item">
+                <input type="checkbox" id="FF-FG"/>
+                <label for="FF-FG">INFANTIL</label>
+                <ul>
+                  <li><a href="/catalogue/category/festas/festa-infantil/convites/convites-simples-2117/" title="Convite Infantil - Simples">CONVITE SIMPLES</a></li>
+                  <li><a href="/catalogue/category/festas/festa-infantil/convites/convite-infantil-2112/" title="Convite Infantil - Especial">CONVITE ESPECIAL</a></li>
+                </ul>
+              </div></li>
+            </ul>
+          </div></li>
+    </div>
+  </div>
+</div>
+<!-- End -->
+</body>
+</html>
